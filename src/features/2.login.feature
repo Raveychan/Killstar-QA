@@ -3,7 +3,7 @@ Feature: Test loading feature
     I want to log-in on the website
     And after I am done browsing I want to log-out
 
-    Scenario: Enter website and click on login button
+    Scenario: Enter website, log in and log out
             Given I open the url https://www.killstar.com/
             Then I wait for the page to load
             Then I click UK website button

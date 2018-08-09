@@ -34,7 +34,7 @@ Then(
 Then(
     'I close the newsletter popup', () => {
         waitFor(1000);
-        clickButton('body > div.fancybox-wrap.fancybox-mobile.fancybox-type-html.fancybox-opened > div > a');
+        clickButton('body > div.fancybox-overlay.fancybox-overlay-fixed > div > div > a');
     }
 )
 
